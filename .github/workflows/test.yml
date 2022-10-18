@@ -18,7 +18,7 @@ jobs:
         run: make deps
 
       - name: auto generate code
-        run: make generate
+        run: make schemas
 
       - name: check source code for changes
         run: git diff --exit-code
